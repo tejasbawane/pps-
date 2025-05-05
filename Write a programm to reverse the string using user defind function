@@ -1,0 +1,14 @@
+#Write a programm to reverse the string using user defind function
+
+def reverse_string(s):
+    reversed_str = ""
+    for char in s:
+        reversed_str = char + reversed_str
+    return reversed_str
+
+
+user_input = input("Enter a string to reverse: ")
+
+
+reversed_string = reverse_string(user_input)
+print(f"Reversed string: {reversed_string}")
