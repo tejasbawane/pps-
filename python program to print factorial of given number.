@@ -1,0 +1,6 @@
+import math as m
+a = int(input("Enter a number : "))
+if a>=0:
+	print("Factorial of given number is : %d" %m.factorial(a))
+else:
+	print("Enter a positive number")
