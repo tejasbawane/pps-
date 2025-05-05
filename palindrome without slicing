@@ -1,0 +1,24 @@
+# palindrome without slicing
+def is_palindrome(s):
+
+    start = 0
+    end = len(s) - 1
+
+
+    while start < end:
+        if s[start] != s[end]:
+            return False
+        start += 1
+        end -= 1
+
+
+    return True
+
+
+user_input = input("Enter a string to check if it's a palindrome: ")
+
+
+if is_palindrome(user_input):
+    print(f"'{user_input}' is a palindrome.")
+else:
+    print(f"'{user_input}' is not a palindrome.")
