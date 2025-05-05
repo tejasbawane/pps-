@@ -1,0 +1,19 @@
+# check where num is prime or not
+num = int (input("Enter the num"))
+for i in range (2,num):
+  if (num%i==0):
+    print("Not aprime number")
+    break
+  else:
+    print("prime number")
+# check where num is prime or not
+num = int (input("Enter the num"))
+for i in range (2,num):
+  if (num%i==0):
+    print("Not aprime number")
+    break
+  else:
+    print("prime number")
+    break
+else:
+    print("prime number")
