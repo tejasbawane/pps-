@@ -1,0 +1,10 @@
+command = "Tejas"
+match command:
+  case "Tejas":
+    print ("Tejas is good..")
+  case "stop":
+    print("stopping...")
+  case "pause":
+    print("pausing...")
+  case _:
+    print("unknown commond")
