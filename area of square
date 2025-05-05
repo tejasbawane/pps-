@@ -1,0 +1,4 @@
+# area of square
+side = int(input('Enter the length of the side:'))
+Area = side *side
+print(f'area of a Square is{Area}')
