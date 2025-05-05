@@ -1,0 +1,12 @@
+#identify the year century year or not
+def is_century_year(year):
+
+    return year % 100 == 0
+
+
+years = [1700, 1801, 1900, 2000, 2023, 2001]
+
+
+century_years = list(filter(is_century_year, years))
+
+print("Century Years:", century_years)
